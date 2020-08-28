@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d04ca78-ebac-45cb-b0b9-860ff4094fed" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gH9tMYBWuYslqigWYcBpKbHD4a" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pojo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day02" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GOT_Homework.testingGOT">
+    <configuration name="GOT_Homework.testingGOT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day07" />
+      <option name="MAIN_CLASS_NAME" value="day07.GOT_Homework" />
+      <option name="METHOD_NAME" value="testingGOT" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HR_ORDS_GroovyMagic.testEmployees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day06" />
+      <option name="MAIN_CLASS_NAME" value="day06.HR_ORDS_GroovyMagic" />
+      <option name="METHOD_NAME" value="testEmployees" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HR_ORDS_POJO_Test.testLocations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day06" />
+      <option name="MAIN_CLASS_NAME" value="day06.HR_ORDS_POJO_Test" />
+      <option name="METHOD_NAME" value="testLocations" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryAppTest.testSingleUserDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day06" />
+      <option name="MAIN_CLASS_NAME" value="day06.LibraryAppTest" />
+      <option name="METHOD_NAME" value="testSingleUserDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsAPI_Test.testNews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day07" />
+      <option name="MAIN_CLASS_NAME" value="day07.NewsAPI_Test" />
+      <option name="METHOD_NAME" value="testNews" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GOT_Homework.testingGOT" />
+        <item itemvalue="JUnit.NewsAPI_Test.testNews" />
+        <item itemvalue="JUnit.HR_ORDS_GroovyMagic.testEmployees" />
+        <item itemvalue="JUnit.HR_ORDS_POJO_Test.testLocations" />
+        <item itemvalue="JUnit.LibraryAppTest.testSingleUserDate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d04ca78-ebac-45cb-b0b9-860ff4094fed" name="Default Changelist" comment="" />
+      <created>1597760864578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597760864578</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1597775519882">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1597775519881" />
+    <state x="313" y="194" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597762065750">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="313" y="194" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1597762065750" />
+    <state x="409" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1598538947121">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="409" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598538947121" />
+    <state x="186" y="319" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598298702506">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="186" y="319" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598298702506" />
+    <state x="367" y="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1598298724444">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="367" y="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598298724444" />
+    <state x="26" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598373060961">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="26" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598373060961" />
+    <state width="1280" height="258" key="GridCell.Tab.0.bottom" timestamp="1598629612120">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1280" height="258" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598627408798" />
+    <state width="1280" height="258" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598629612120" />
+    <state width="1868" height="440" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598549788379" />
+    <state width="1228" height="262" key="GridCell.Tab.0.bottom/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598543700908" />
+    <state width="1280" height="258" key="GridCell.Tab.0.center" timestamp="1598629612117">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1280" height="258" key="GridCell.Tab.0.center/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598627408793" />
+    <state width="1280" height="258" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598629612117" />
+    <state width="1868" height="440" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598549788374" />
+    <state width="1228" height="262" key="GridCell.Tab.0.center/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598543700903" />
+    <state width="1280" height="258" key="GridCell.Tab.0.left" timestamp="1598629612114">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1280" height="258" key="GridCell.Tab.0.left/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598627408791" />
+    <state width="1280" height="258" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598629612114" />
+    <state width="1868" height="440" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598549788372" />
+    <state width="1228" height="262" key="GridCell.Tab.0.left/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598543700902" />
+    <state width="1280" height="258" key="GridCell.Tab.0.right" timestamp="1598629612119">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1280" height="258" key="GridCell.Tab.0.right/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598627408795" />
+    <state width="1280" height="258" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598629612119" />
+    <state width="1868" height="440" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598549788376" />
+    <state width="1228" height="262" key="GridCell.Tab.0.right/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598543700906" />
+    <state x="221" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1598623097182">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="221" y="239" key="com.intellij.ide.util.TipDialog/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598623097182" />
+    <state x="221" y="239" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1598285608242" />
+    <state x="221" y="239" key="com.intellij.ide.util.TipDialog/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598146299858" />
+    <state x="100" y="100" width="1080" height="600" key="dock-window-1" timestamp="1598373171943">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="dock-window-1/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598373171943" />
+    <state x="221" y="0" width="838" height="1032" key="search.everywhere.popup" timestamp="1598559641787">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="221" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598559641787" />
+  </component>
+</project>
