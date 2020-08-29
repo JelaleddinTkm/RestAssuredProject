@@ -71,10 +71,6 @@ public class HR_ORDS_GroovyMagic {
         String richestGuy = jsonPath.getString("items.max {it.salary}.first_name");
         System.out.println("richestGuy = " + richestGuy);
 
-
-
-
-
     }
 
 
