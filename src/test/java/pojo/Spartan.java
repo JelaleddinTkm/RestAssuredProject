@@ -5,12 +5,25 @@ public class Spartan {
     private String name;
     private String gender;
     private long phone;
+    private int id;
 
+
+
+    @Override
+    public String toString() {
+        return "Spartan{" +
+                "name='" + name + '\'' +
+                ", gender='" + gender + '\'' +
+                ", phone=" + phone +
+                ", id=" + id +
+                '}';
+    }
 
     public Spartan(String name, String gender, long phone) {
         this.name = name;
         this.gender = gender;
         this.phone = phone;
+        this.id = id;
     }
 
     public String getName() {
@@ -37,5 +50,12 @@ public class Spartan {
         this.phone = phone;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }
 
