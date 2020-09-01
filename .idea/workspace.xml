@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d04ca78-ebac-45cb-b0b9-860ff4094fed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/myPractices/SpartanJsonToCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/myPractices/SpartanTestWithHamcrest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/myPractices/SpartanTestWithJsonPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/myPractices/SpartanTestsPOJODeserilization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day08/LibraryApp_DataDriven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day08/MethodOrderByDisplayName_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day08/ReadingCSVFileFromTheTest_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day08/SpartanAPI_E2E_HappyPath_Homework_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day08/SpartanApiDB_Practice_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day08/TestExecutionOrderInJunit5_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/credentials.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/numbers.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myPractices/SpartanTestWithPathMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myPractices/SpartanTestWithPathMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +44,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -47,83 +56,85 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="day02" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpartanTestsPOJODeserilization.test1">
-    <configuration name="SpartanJsonToCollection.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LibraryApp_DataDriven">
+    <configuration name="LibraryApp_DataDriven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myPractices.*" />
+          <option name="PATTERN" value="day08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="myPractices" />
-      <option name="MAIN_CLASS_NAME" value="myPractices.SpartanJsonToCollection" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="day08" />
+      <option name="MAIN_CLASS_NAME" value="day08.LibraryApp_DataDriven" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryApp_DataDriven.testLoginCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day08" />
+      <option name="MAIN_CLASS_NAME" value="day08.LibraryApp_DataDriven" />
+      <option name="METHOD_NAME" value="testLoginCredentials(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanJsonToCollection.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadingCSVFileFromTheTest_5.simpleRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myPractices.*" />
+          <option name="PATTERN" value="day08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="myPractices" />
-      <option name="MAIN_CLASS_NAME" value="myPractices.SpartanJsonToCollection" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="day08" />
+      <option name="MAIN_CLASS_NAME" value="day08.ReadingCSVFileFromTheTest_5" />
+      <option name="METHOD_NAME" value="simpleRead(int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanTestWithHamcrest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadingCSVFileFromTheTest_5.testAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myPractices.*" />
+          <option name="PATTERN" value="day08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="myPractices" />
-      <option name="MAIN_CLASS_NAME" value="myPractices.SpartanTestWithHamcrest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="day08" />
+      <option name="MAIN_CLASS_NAME" value="day08.ReadingCSVFileFromTheTest_5" />
+      <option name="METHOD_NAME" value="testAddition(int,int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanTestWithHamcrest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadingCSVFileFromTheTest_5.testAddition2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myPractices.*" />
+          <option name="PATTERN" value="day08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="myPractices" />
-      <option name="MAIN_CLASS_NAME" value="myPractices.SpartanTestWithHamcrest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpartanTestsPOJODeserilization.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myPractices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myPractices" />
-      <option name="MAIN_CLASS_NAME" value="myPractices.SpartanTestsPOJODeserilization" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="day08" />
+      <option name="MAIN_CLASS_NAME" value="day08.ReadingCSVFileFromTheTest_5" />
+      <option name="METHOD_NAME" value="testAddition2(int,int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpartanTestsPOJODeserilization.test1" />
-        <item itemvalue="JUnit.SpartanJsonToCollection.test2" />
-        <item itemvalue="JUnit.SpartanJsonToCollection.test1" />
-        <item itemvalue="JUnit.SpartanTestWithHamcrest.test2" />
-        <item itemvalue="JUnit.SpartanTestWithHamcrest.test1" />
+        <item itemvalue="JUnit.LibraryApp_DataDriven" />
+        <item itemvalue="JUnit.LibraryApp_DataDriven.testLoginCredentials" />
+        <item itemvalue="JUnit.ReadingCSVFileFromTheTest_5.testAddition2" />
+        <item itemvalue="JUnit.ReadingCSVFileFromTheTest_5.simpleRead" />
+        <item itemvalue="JUnit.ReadingCSVFileFromTheTest_5.testAddition" />
       </list>
     </recent_temporary>
   </component>
@@ -157,14 +168,26 @@
       <option name="project" value="LOCAL" />
       <updated>1598721734159</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I worked on myPractices">
+      <created>1598882855126</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598882855126</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="End of day07" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of day07" />
+    <MESSAGE value="I worked on myPractices" />
+    <option name="LAST_COMMIT_MESSAGE" value="I worked on myPractices" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="140" y="0" key="#Project_Structure" timestamp="1598898227802">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="140" y="0" key="#Project_Structure/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598898227802" />
     <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598823780425">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -194,46 +217,46 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="315" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838003795" />
-    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1598721733758">
+    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1598882854112">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598721733758" />
-    <state width="1280" height="309" key="GridCell.Tab.0.bottom" timestamp="1598854934970">
+    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598882854112" />
+    <state width="1280" height="332" key="GridCell.Tab.0.bottom" timestamp="1598908581116">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="258" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598627408798" />
-    <state width="1280" height="309" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598854934970" />
+    <state width="1280" height="332" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598908581116" />
     <state width="1920" height="234" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538540" />
     <state width="1280" height="309" key="GridCell.Tab.0.bottom/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339327" />
-    <state width="1280" height="309" key="GridCell.Tab.0.center" timestamp="1598854934968">
+    <state width="1280" height="332" key="GridCell.Tab.0.center" timestamp="1598908581112">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="258" key="GridCell.Tab.0.center/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598627408793" />
-    <state width="1280" height="309" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598854934968" />
+    <state width="1280" height="332" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598908581112" />
     <state width="1920" height="234" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538537" />
     <state width="1280" height="309" key="GridCell.Tab.0.center/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339325" />
-    <state width="1280" height="309" key="GridCell.Tab.0.left" timestamp="1598854934966">
+    <state width="1280" height="332" key="GridCell.Tab.0.left" timestamp="1598908581107">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="258" key="GridCell.Tab.0.left/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598627408791" />
-    <state width="1280" height="309" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598854934966" />
+    <state width="1280" height="332" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598908581107" />
     <state width="1920" height="234" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538535" />
     <state width="1280" height="309" key="GridCell.Tab.0.left/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339324" />
-    <state width="1280" height="309" key="GridCell.Tab.0.right" timestamp="1598854934969">
+    <state width="1280" height="332" key="GridCell.Tab.0.right" timestamp="1598908581114">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="258" key="GridCell.Tab.0.right/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598627408795" />
-    <state width="1280" height="309" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598854934969" />
+    <state width="1280" height="332" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598908581114" />
     <state width="1920" height="234" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538538" />
     <state width="1280" height="309" key="GridCell.Tab.0.right/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339326" />
-    <state x="140" y="79" key="Vcs.Push.Dialog.v2" timestamp="1598721741770">
+    <state x="140" y="79" key="Vcs.Push.Dialog.v2" timestamp="1598882859941">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="140" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598721741770" />
-    <state x="221" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1598882672106">
+    <state x="140" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598882859941" />
+    <state x="221" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1598970530820">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="221" y="239" key="com.intellij.ide.util.TipDialog/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598882672106" />
+    <state x="221" y="239" key="com.intellij.ide.util.TipDialog/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598970530820" />
     <state x="221" y="239" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1598285608242" />
     <state x="221" y="239" key="com.intellij.ide.util.TipDialog/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598146299858" />
     <state x="100" y="100" width="1080" height="600" key="dock-window-1" timestamp="1598373171943">
@@ -244,5 +267,16 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="221" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598559641787" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/day08/SpartanAPI_E2E_HappyPath_Homework_3.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
