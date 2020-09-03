@@ -10,6 +10,7 @@ import io.restassured.specification.ResponseSpecification;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import pojo.Catagory;
 import pojo.User;
 import utility.ConfigurationReader;
 import utility.LibraryUtil;
@@ -69,8 +70,24 @@ public class LibraryAppUsingTheSpecification_Shorter_2 {
     @Test
     public void testLibrary(){
 
-        when()
+       Response response = when()
                 .get("/get_book_categories");
+
+       List<Catagory> catagoryList = response.jsonPath().getList("",Catagory.class);
+
+            System.out.println("catagoryList = " + catagoryList);
+
+        // above code is great, but what if I want to store each category as map rather than POJO
+        // Each category is key value pair -->> Map
+        // and we have any category -->> List<Map>
+        // jsonPath methods always tru to help to convert the types where it can
+        // in this case, each category in jsonArray we tried to store into map then get a list out of it
+        // and Jackson databind take care of all conversation
+        // List< Map<String,String> > categoryMapList = response.jsonPath().getList("" );
+
+      List< Map<String,String> > categoryMapList = response.jsonPath().getList("" );
+      // here we say -->> turn it into List of Map
+            System.out.println("categoryMapList = " + categoryMapList);
     }
 
 
@@ -80,11 +97,11 @@ public class LibraryAppUsingTheSpecification_Shorter_2 {
 
       Response response =  when().get(" /get_all_users");
 
-        JsonPath jp = response.jsonPath();
+      JsonPath jp = response.jsonPath();
 
-        List<User> allUserList = jp.getList("", User.class);
+      List<User> allUserList = jp.getList("", User.class);
 
-             System.out.println("allUserList = " + allUserList);
+           System.out.println("allUserList = " + allUserList);
     }
 
 
