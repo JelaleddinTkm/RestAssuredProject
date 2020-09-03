@@ -11,26 +11,12 @@ import org.junit.jupiter.api.Test;
 import utility.ConfigurationReader;
 import utility.LibraryUtil;
 
+import static io.restassured.RestAssured.expect;
 import static io.restassured.RestAssured.*;
 
 
-public class LibraryAppUsingTheSpecification {
+public class LibraryAppUsingTheSpecification_Shorter {
 
-    /*
-        ### Practice what we learned with LibraryApp
-    We will use these 3 endpoints :
-          * GET /dahsboard_status
-          * GET /get_book_categories
-          * GET /get_all_users
-    We want to save the Request spec for
-          * setting the X-LIBRARY-TOKEN HEADER
-          * ContentType Header
-          * logging everything
-    We want to save the Response spec for
-          * Status code of `200`
-          * ContentType Header is JSON
-          * log if validation fail
-         */
 
     static RequestSpecification requestSpec ;
     static ResponseSpecification responseSpec ;
@@ -43,13 +29,22 @@ public class LibraryAppUsingTheSpecification {
 
         String theToken = LibraryUtil.loginAndGetToken("librarian69@library","KNPXrm3S");
 
-        // we have build a Reusable request Specification for setting contentType
-        requestSpec = given().accept(ContentType.JSON)    // we want json back
+        // just like we set the baseURI and basePath
+        // we are using the static field of RestAssured to set it at global level
+
+        RestAssured.requestSpecification =
+
+            given()
+                .accept(ContentType.JSON)                 // we want json back
                 .log().all()                              // we want to log all
                 .header("x-library-token", theToken) ;  // we want to set the token header
 
-        // is there easy way to directly create ResponseSpec object without the builder, YES THERE IS!
-        responseSpec =  expect().statusCode(200)       // expecting the Response status code 200
+
+        // we are using the static field of RestAssured to set it at global level
+
+        RestAssured.responseSpecification =
+
+                 expect().statusCode(200)              // expecting the Response status code 200
                 .contentType(ContentType.JSON)         // contentype is josn
                 .logDetail(LogDetail.ALL) ;            // want to log all of them
 
@@ -60,14 +55,28 @@ public class LibraryAppUsingTheSpecification {
     @Test
     public void testLibrary(){
 
-        given()
-                .spec(requestSpec).
         when()
-                .get("/get_book_categories").
-        then()
-                .spec(responseSpec) ;
-
+                .get("/get_book_categories");
     }
+
+
+    @DisplayName("Testing GET /get_all_users Endpoint with spec")
+    @Test
+    public void testGetAllUsers(){
+
+        when()
+                .get(" /get_all_users");
+    }
+
+
+    @DisplayName("Testing GET /dashboard_stats Endpoint with spec")
+    @Test
+    public void testGet_Dashboard_stats(){
+
+        when()
+                .get(" /dashboard_stats");
+    }
+
 
 
 }

@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d04ca78-ebac-45cb-b0b9-860ff4094fed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day10/LibraryAppUsingTheSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day10/LibraryAppUsingTheSpecification_Shorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day08/ReadingCSVFileFromTheTest_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08/ReadingCSVFileFromTheTest_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day08/SpartanAPI_E2E_HappyPath_Homework_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08/SpartanAPI_E2E_HappyPath_Homework_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day08/SpartanApiDB_Practice_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08/SpartanApiDB_Practice_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day09/SpartanPostRequestExtractingSpecTest_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day09/SpartanPostRequestExtractingSpecTest_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myPractices/SpartanTestsPOJODeserilization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myPractices/SpartanTestsPOJODeserilization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/Spartan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/Spartan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day08/SpartanApiDB_Practice_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day08/SpartanApiDB_Practice_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day09/SpartanPostRequestExtractingSpecTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day09/SpartanRoleBasedAccessControlNegativeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day09/SpartanRoleBasedAccessControlNegativeTest_Reuse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day09/SpartanRoleBasedAccessControlNegativeTest_ReuseClassLevel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day09/TestPostSpartanDataDriven.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day09/ZipDataDriven.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/myPractices/SpartanTestsPOJODeserilization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/myPractices/SpartanTestsPOJODeserilization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojo/Spartan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pojo/Spartan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day10/LibraryAppUsingTheSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day10/LibraryAppUsingTheSpecification.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +46,7 @@
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day10" />
       <recent name="day09" />
       <recent name="day02" />
     </key>
@@ -68,7 +54,22 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpartanTestsPOJODeserilization.gsonExample">
+  <component name="RunManager" selected="JUnit.LibraryAppUsingTheSpecification_Shorter">
+    <configuration name="LibraryAppUsingTheSpecification_Shorter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day10" />
+      <option name="MAIN_CLASS_NAME" value="day10.LibraryAppUsingTheSpecification_Shorter" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpartanPostRequestExtractingSpecTest_6.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
@@ -96,22 +97,6 @@
       <option name="PACKAGE_NAME" value="day09" />
       <option name="MAIN_CLASS_NAME" value="day09.SpartanRoleBasedAccessControlNegativeTest_3" />
       <option name="METHOD_NAME" value="testUserCanNotDeleteData" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpartanRoleBasedAccessControlNegativeTest_3.testUserCanNotPostData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day09" />
-      <option name="MAIN_CLASS_NAME" value="day09.SpartanRoleBasedAccessControlNegativeTest_3" />
-      <option name="METHOD_NAME" value="testUserCanNotPostData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryAppUsingTheSpecification_Shorter" />
         <item itemvalue="JUnit.SpartanTestsPOJODeserilization.gsonExample" />
         <item itemvalue="JUnit.SpartanTestsPOJODeserilization.test1" />
         <item itemvalue="JUnit.SpartanPostRequestExtractingSpecTest_6.test" />
         <item itemvalue="JUnit.SpartanRoleBasedAccessControlNegativeTest_3.testUserCanNotDeleteData" />
-        <item itemvalue="JUnit.SpartanRoleBasedAccessControlNegativeTest_3.testUserCanNotPostData" />
       </list>
     </recent_temporary>
   </component>
@@ -191,14 +176,22 @@
       <option name="project" value="LOCAL" />
       <updated>1598970579856</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Reviewing the Re-usable request and response spec">
+      <created>1599144935082</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599144935082</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="End of day07" />
     <MESSAGE value="I worked on myPractices" />
     <MESSAGE value="End of day 08" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of day 08" />
+    <MESSAGE value="Reviewing the Re-usable request and response spec" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reviewing the Re-usable request and response spec" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="0" key="#Project_Structure" timestamp="1598898227802">
@@ -234,42 +227,42 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="315" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838003795" />
-    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1598970579118">
+    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1599144934270">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598970579118" />
-    <state width="1228" height="356" key="GridCell.Tab.0.bottom" timestamp="1599024839696">
+    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599144934270" />
+    <state width="1228" height="355" key="GridCell.Tab.0.bottom" timestamp="1599147214761">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="332" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598972834537" />
-    <state width="1228" height="356" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599024839696" />
+    <state width="1228" height="355" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599147214761" />
     <state width="1920" height="234" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538540" />
     <state width="1280" height="309" key="GridCell.Tab.0.bottom/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339327" />
-    <state width="1228" height="356" key="GridCell.Tab.0.center" timestamp="1599024839694">
+    <state width="1228" height="355" key="GridCell.Tab.0.center" timestamp="1599147214757">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="332" key="GridCell.Tab.0.center/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598972834535" />
-    <state width="1228" height="356" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599024839694" />
+    <state width="1228" height="355" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599147214757" />
     <state width="1920" height="234" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538537" />
     <state width="1280" height="309" key="GridCell.Tab.0.center/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339325" />
-    <state width="1228" height="356" key="GridCell.Tab.0.left" timestamp="1599024839692">
+    <state width="1228" height="355" key="GridCell.Tab.0.left" timestamp="1599147214755">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="332" key="GridCell.Tab.0.left/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598972834534" />
-    <state width="1228" height="356" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599024839692" />
+    <state width="1228" height="355" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599147214755" />
     <state width="1920" height="234" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538535" />
     <state width="1280" height="309" key="GridCell.Tab.0.left/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339324" />
-    <state width="1228" height="356" key="GridCell.Tab.0.right" timestamp="1599024839695">
+    <state width="1228" height="355" key="GridCell.Tab.0.right" timestamp="1599147214759">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="332" key="GridCell.Tab.0.right/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598972834536" />
-    <state width="1228" height="356" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599024839695" />
+    <state width="1228" height="355" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599147214759" />
     <state width="1920" height="234" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538538" />
     <state width="1280" height="309" key="GridCell.Tab.0.right/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339326" />
-    <state x="140" y="79" key="Vcs.Push.Dialog.v2" timestamp="1598970583711">
+    <state x="140" y="79" key="Vcs.Push.Dialog.v2" timestamp="1599144938146">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="140" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1598970583711" />
+    <state x="140" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599144938146" />
     <state x="221" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1599143756583">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
