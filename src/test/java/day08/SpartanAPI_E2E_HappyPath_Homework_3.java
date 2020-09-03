@@ -81,6 +81,7 @@ public class SpartanAPI_E2E_HappyPath_Homework_3 {
 
     @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
     public class SpartanAPI_E2E_HappyPath {
+
         private static int newID;
         private static String randomName;
         private static String randomGender;
@@ -93,6 +94,7 @@ public class SpartanAPI_E2E_HappyPath_Homework_3 {
             RestAssured.basePath="/api";
             DB_Utility.createConnection("spartan1");
         }
+
         @Order(1)
         @Test
         public void testAddData() {
@@ -108,6 +110,7 @@ public class SpartanAPI_E2E_HappyPath_Homework_3 {
                     ;
             newID= response.path("data.id");
         }
+
         @Order(2)
         @Test
         public void testReadData(){
@@ -124,6 +127,7 @@ public class SpartanAPI_E2E_HappyPath_Homework_3 {
                     .log().all()
                     .body("name", is(randomName));
         }
+
         @Order(3)
         @Test
         public void testUpdateData(){
@@ -141,6 +145,7 @@ public class SpartanAPI_E2E_HappyPath_Homework_3 {
                     .statusCode(204)
             ;
         }
+
         @Order(4)
         @Test
         public void testDeleteData(){
@@ -151,39 +156,6 @@ public class SpartanAPI_E2E_HappyPath_Homework_3 {
                     .statusCode(204);
         }
     }
-
-
-
-
-
-
-    public void testAddData(){
-    // create one data here using the POJO as body, do your assertion
-    // gran the id so it can be used for all next 3 tests
-    Response response = given()
-            .contentType(ContentType.JSON)
-            .body(sp1).
-    when()
-            .post("/spartans");
-    newID = response.jsonPath().getInt("data.id");
-
-    static int newID;
-// We want exact order 1.Add, 2.Read, 3.Update, 4.Delete
-static Spartan sp1 = new Spartan("Leyla Ozdemir", "Female", 1231231231);
-@Order(1)
-@Test
-public void testAddData(){
-    // create one data here using the POJO as body, do your assertion
-    // gran the id so it can be used for all next 3 tests
-    Response response = given()
-            .contentType(ContentType.JSON)
-            .body(sp1).
-    when()
-            .post("/spartans");
-    newID = response.jsonPath().getInt("data.id");
-}
-
-
 
  */
 

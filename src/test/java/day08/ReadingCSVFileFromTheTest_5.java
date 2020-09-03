@@ -41,9 +41,9 @@ public class ReadingCSVFileFromTheTest_5 {
 
     // What if I want some custom name
     // @ParameterizedTest(name = "Some custom name here")
-// How do I refer the row number in my csv file
+    // How do I refer the row number in my csv file
     // you can refer row number using {index} in the name String
-// How do I refer the column data in my display name
+    // How do I refer the column data in my display name
     // in the name String we can add {yourColumnIndexHere}
     // {0} for first column
     // {1} for second column

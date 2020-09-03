@@ -7,7 +7,8 @@ public class Spartan {
     private long phone;
     private int id;
 
-
+    public Spartan() {
+    }
 
     @Override
     public String toString() {
@@ -19,7 +20,7 @@ public class Spartan {
                 '}';
     }
 
-    public Spartan(String name, String gender, long phone) {
+    public Spartan(String name, String gender, long phone ) {
         this.name = name;
         this.gender = gender;
         this.phone = phone;
@@ -30,28 +31,29 @@ public class Spartan {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getGender() {
         return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
     }
 
     public long getPhone() {
         return phone;
     }
 
-    public void setPhone(long phone) {
-        this.phone = phone;
-    }
-
     public int getId() {
         return id;
+    }
+
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public void setPhone(long phone) {
+        this.phone = phone;
     }
 
     public void setId(int id) {

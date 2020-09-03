@@ -27,6 +27,7 @@ public class SpartanApiDB_Practice_1 {
      *
      *  The Database query to get the count is :
      *  // all the females that have a in their name , case insensitive
+     *
      *   -- This is how we get the data with case insensitive manner
      *      SELECT * FROM SPARTANS
      *       WHERE LOWER(gender) = 'female'
@@ -65,6 +66,7 @@ public class SpartanApiDB_Practice_1 {
         //DB_Utility.displayAllData();
         //  if you do , get the row count so we can see how many data returned
         // and use it for expected result in next test
+
         int expectedResult =  DB_Utility.getRowCount();
             System.out.println("expectedResult = " + expectedResult);
     }
@@ -97,9 +99,6 @@ public class SpartanApiDB_Practice_1 {
     @DisplayName("Testing /spartans/search Endpoint and Validate against DB for all IDs")
     @Test
     public void testSearchVerifyAllID(){
-
-        // make a request to GET /spartans/search
-        // using query parameter gender Female  nameContains a
 
         Response response = given()
                 .log().all()
@@ -135,10 +134,6 @@ public class SpartanApiDB_Practice_1 {
 
 
     }
-
-
-
-
 
     @AfterAll
     public static void destroy() {

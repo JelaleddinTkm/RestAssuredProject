@@ -99,7 +99,7 @@ public class SpartanPostRequestExtractingSpecTest_6 {
             // always getting long number outside range of int to avoid errors
             long phone    = faker.number().numberBetween(5000000000L,9999999999L);
 
-        Spartan randomSpartanObject = new Spartan(name,gender,phone);
+        Spartan randomSpartanObject = new Spartan(name,gender,phone );
 
             System.out.println("Created Random Spartan Object : " + randomSpartanObject);
 
