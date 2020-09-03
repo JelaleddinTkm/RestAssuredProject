@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d04ca78-ebac-45cb-b0b9-860ff4094fed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day10/LibraryAppUsingTheSpecification_Shorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day10/LombokTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Catagory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day10/LibraryAppUsingTheSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day10/LibraryAppUsingTheSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day10/LibraryAppUsingTheSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day10/LibraryAppUsingTheSpecification_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day10/LibraryAppUsingTheSpecification_Shorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day10/LibraryAppUsingTheSpecification_Shorter_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +44,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -54,8 +59,8 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryAppUsingTheSpecification_Shorter">
-    <configuration name="LibraryAppUsingTheSpecification_Shorter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LombokTest.test">
+    <configuration name="LibraryAppUsingTheSpecification_Shorter_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
@@ -64,39 +69,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day10" />
-      <option name="MAIN_CLASS_NAME" value="day10.LibraryAppUsingTheSpecification_Shorter" />
+      <option name="MAIN_CLASS_NAME" value="day10.LibraryAppUsingTheSpecification_Shorter_2" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanPostRequestExtractingSpecTest_6.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryAppUsingTheSpecification_Shorter_2.testGetAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.*" />
+          <option name="PATTERN" value="day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day09" />
-      <option name="MAIN_CLASS_NAME" value="day09.SpartanPostRequestExtractingSpecTest_6" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="day10" />
+      <option name="MAIN_CLASS_NAME" value="day10.LibraryAppUsingTheSpecification_Shorter_2" />
+      <option name="METHOD_NAME" value="testGetAllUsers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanRoleBasedAccessControlNegativeTest_3.testUserCanNotDeleteData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryAppUsingTheSpecification_Shorter_2.testGet_Dashboard_stats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.*" />
+          <option name="PATTERN" value="day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day09" />
-      <option name="MAIN_CLASS_NAME" value="day09.SpartanRoleBasedAccessControlNegativeTest_3" />
-      <option name="METHOD_NAME" value="testUserCanNotDeleteData" />
+      <option name="PACKAGE_NAME" value="day10" />
+      <option name="MAIN_CLASS_NAME" value="day10.LibraryAppUsingTheSpecification_Shorter_2" />
+      <option name="METHOD_NAME" value="testGet_Dashboard_stats" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LombokTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day10" />
+      <option name="MAIN_CLASS_NAME" value="day10.LombokTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,29 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanTestsPOJODeserilization.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myPractices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myPractices" />
-      <option name="MAIN_CLASS_NAME" value="myPractices.SpartanTestsPOJODeserilization" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LibraryAppUsingTheSpecification_Shorter" />
+        <item itemvalue="JUnit.LombokTest.test" />
+        <item itemvalue="JUnit.LibraryAppUsingTheSpecification_Shorter_2.testGetAllUsers" />
+        <item itemvalue="JUnit.LibraryAppUsingTheSpecification_Shorter_2.testGet_Dashboard_stats" />
+        <item itemvalue="JUnit.LibraryAppUsingTheSpecification_Shorter_2" />
         <item itemvalue="JUnit.SpartanTestsPOJODeserilization.gsonExample" />
-        <item itemvalue="JUnit.SpartanTestsPOJODeserilization.test1" />
-        <item itemvalue="JUnit.SpartanPostRequestExtractingSpecTest_6.test" />
-        <item itemvalue="JUnit.SpartanRoleBasedAccessControlNegativeTest_3.testUserCanNotDeleteData" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599144935082</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Reviewing the Re-usable request and response spec with shorter way">
+      <created>1599147876048</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599147876048</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -191,7 +203,8 @@
     <MESSAGE value="I worked on myPractices" />
     <MESSAGE value="End of day 08" />
     <MESSAGE value="Reviewing the Re-usable request and response spec" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reviewing the Re-usable request and response spec" />
+    <MESSAGE value="Reviewing the Re-usable request and response spec with shorter way" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reviewing the Re-usable request and response spec with shorter way" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="0" key="#Project_Structure" timestamp="1598898227802">
@@ -206,10 +219,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="313" y="194" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1597762065750" />
-    <state x="409" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1599024410303">
+    <state x="409" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1599150316615">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="409" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599024410303" />
+    <state x="409" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599150316615" />
     <state x="409" y="47" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598837293968" />
     <state x="186" y="319" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598298702506">
       <screen x="0" y="0" width="1280" height="800" />
@@ -227,46 +240,52 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="315" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838003795" />
-    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1599144934270">
+    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1599147875579">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1599147875579" />
     <state x="189" y="0" key="CommitChangelistDialog2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599144934270" />
-    <state width="1228" height="355" key="GridCell.Tab.0.bottom" timestamp="1599147214761">
+    <state width="1228" height="194" key="GridCell.Tab.0.bottom" timestamp="1599150826851">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="332" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598972834537" />
-    <state width="1228" height="355" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599147214761" />
+    <state width="1228" height="194" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599150826851" />
     <state width="1920" height="234" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538540" />
     <state width="1280" height="309" key="GridCell.Tab.0.bottom/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339327" />
-    <state width="1228" height="355" key="GridCell.Tab.0.center" timestamp="1599147214757">
+    <state width="1228" height="194" key="GridCell.Tab.0.center" timestamp="1599150826848">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="332" key="GridCell.Tab.0.center/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598972834535" />
-    <state width="1228" height="355" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599147214757" />
+    <state width="1228" height="194" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599150826848" />
     <state width="1920" height="234" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538537" />
     <state width="1280" height="309" key="GridCell.Tab.0.center/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339325" />
-    <state width="1228" height="355" key="GridCell.Tab.0.left" timestamp="1599147214755">
+    <state width="1228" height="194" key="GridCell.Tab.0.left" timestamp="1599150826846">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="332" key="GridCell.Tab.0.left/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598972834534" />
-    <state width="1228" height="355" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599147214755" />
+    <state width="1228" height="194" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599150826846" />
     <state width="1920" height="234" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538535" />
     <state width="1280" height="309" key="GridCell.Tab.0.left/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339324" />
-    <state width="1228" height="355" key="GridCell.Tab.0.right" timestamp="1599147214759">
+    <state width="1228" height="194" key="GridCell.Tab.0.right" timestamp="1599150826849">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="332" key="GridCell.Tab.0.right/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1598972834536" />
-    <state width="1228" height="355" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599147214759" />
+    <state width="1228" height="194" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599150826849" />
     <state width="1920" height="234" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538538" />
     <state width="1280" height="309" key="GridCell.Tab.0.right/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339326" />
-    <state x="140" y="79" key="Vcs.Push.Dialog.v2" timestamp="1599144938146">
+    <state x="33" y="0" key="SettingsEditor" timestamp="1599151539096">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="33" y="0" key="SettingsEditor/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599151539096" />
+    <state x="140" y="79" key="Vcs.Push.Dialog.v2" timestamp="1599147878288">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="140" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1599147878288" />
     <state x="140" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599144938146" />
-    <state x="221" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1599143756583">
+    <state x="221" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1599151384280">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="221" y="239" key="com.intellij.ide.util.TipDialog/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599143756583" />
+    <state x="221" y="239" key="com.intellij.ide.util.TipDialog/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599151384280" />
     <state x="221" y="239" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1598285608242" />
     <state x="221" y="239" key="com.intellij.ide.util.TipDialog/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598146299858" />
     <state x="221" y="255" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1599143469701" />

@@ -14,7 +14,7 @@ import utility.LibraryUtil;
 import static io.restassured.RestAssured.*;
 
 
-public class LibraryAppUsingTheSpecification {
+public class LibraryAppUsingTheSpecification_1 {
 
     /*
         ### Practice what we learned with LibraryApp
