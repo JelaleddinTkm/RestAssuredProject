@@ -51,9 +51,10 @@ public class LibraryAppUsingTheSpecification_Shorter_2 {
 
         RestAssured.responseSpecification =
 
-                 expect().statusCode(200)              // expecting the Response status code 200
-                .contentType(ContentType.JSON)         // contentype is josn
-                .logDetail(LogDetail.ALL) ;            // want to log all of them
+                 expect()
+                         .statusCode(200)                 // expecting the Response status code 200
+                         .contentType(ContentType.JSON)   // contentype is josn
+                         .logDetail(LogDetail.ALL) ;      // want to log all of them
 
     }
 

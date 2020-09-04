@@ -18,14 +18,17 @@ public class LibraryAppUsingTheSpecification_1 {
 
     /*
         ### Practice what we learned with LibraryApp
+
     We will use these 3 endpoints :
           * GET /dahsboard_status
           * GET /get_book_categories
           * GET /get_all_users
+
     We want to save the Request spec for
           * setting the X-LIBRARY-TOKEN HEADER
           * ContentType Header
           * logging everything
+
     We want to save the Response spec for
           * Status code of `200`
           * ContentType Header is JSON
@@ -41,17 +44,27 @@ public class LibraryAppUsingTheSpecification_1 {
         RestAssured.baseURI = ConfigurationReader.getProperty("library1.base_url");
         RestAssured.basePath = "/rest/v1" ;
 
-        String theToken = LibraryUtil.loginAndGetToken("librarian69@library","KNPXrm3S");
+        String theToken =
+                LibraryUtil.loginAndGetToken("librarian69@library","KNPXrm3S");
 
         // we have build a Reusable request Specification for setting contentType
-        requestSpec = given().accept(ContentType.JSON)    // we want json back
-                .log().all()                              // we want to log all
-                .header("x-library-token", theToken) ;  // we want to set the token header
+
+        requestSpec =
+
+                given()
+                        .accept(ContentType.JSON)                 // we want json back
+                        .log().all()                              // we want to log all
+                        .header("x-library-token", theToken) ;  // we want to set the token header
+
 
         // is there easy way to directly create ResponseSpec object without the builder, YES THERE IS!
-        responseSpec =  expect().statusCode(200)       // expecting the Response status code 200
-                .contentType(ContentType.JSON)         // contentype is josn
-                .logDetail(LogDetail.ALL) ;            // want to log all of them
+
+        responseSpec =
+
+                expect()
+                         .statusCode(200)                       // expecting the Response status code 200
+                         .contentType(ContentType.JSON)         // contentype is json
+                         .logDetail(LogDetail.ALL) ;            // want to log all of them
 
     }
 

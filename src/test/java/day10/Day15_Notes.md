@@ -115,6 +115,7 @@ public class LombokTest {
     }
 
 }
+
 How do you handle data issue in your automation ?
 The challenges :
 Dynamic data -- a data that change often and can not be reused for next test.
