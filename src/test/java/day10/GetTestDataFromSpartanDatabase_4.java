@@ -15,6 +15,23 @@ import static org.hamcrest.Matchers.*;
 
 public class GetTestDataFromSpartanDatabase_4 {
 
+    /*
+
+    How do you handle data issue in your automation ?
+
+    The challenges :
+
+    Dynamic data -- Type of data that changes often and can not be reused for next test.
+    Data is not sync between environment.
+    Data that exists in one environment does not exists in another and casue test failure.
+
+    What's your approach to handle them ?
+
+    1) If the data change often and you have access to DB
+    Query the database to get up to date data and feed the data to your test.
+
+     */
+
     @BeforeAll
     public static void init() {
         RestAssured.baseURI = ConfigurationReader.getProperty("spartan1.base_url");

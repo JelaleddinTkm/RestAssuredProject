@@ -30,7 +30,7 @@ public class JsonSchemaValidation_3 {
                 .get("/spartans/{id}", 55)
                 .prettyPeek().
         then()
-                .body( matchesJsonSchemaInClasspath("singleSpartanSchema.json")) ;
+                .body( matchesJsonSchemaInClasspath("singleSpartanSchema.json") ) ;
 
     }
 
