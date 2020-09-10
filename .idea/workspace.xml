@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d04ca78-ebac-45cb-b0b9-860ff4094fed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/allSpartans2Schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day12/HamchrestMatcherEveryItem_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day12/OpenMovieDB_XML_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day12/SchemaValidationTest_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day12/SpartanXML_Test_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day12/XMLResponseTest_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allSpartansSchema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/searchSchema.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day10/GetTestDataFromSpartanDatabase_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day10/GetTestDataFromSpartanDatabase_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day11/GettingDataFromOtherRequests_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day11/GettingDataFromOtherRequests_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,104 +42,105 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/day10" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="day10" />
       <recent name="day09" />
       <recent name="day02" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/day10" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GettingDataFromOtherRequests_1.gettingRandomID_and_NameForEachTest">
-    <configuration name="GettingDataFromOtherRequests_1.gettingRandomID_and_NameForEachTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HamchrestMatcherEveryItem_5.testList">
+    <configuration name="HamchrestMatcherEveryItem_5.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.*" />
+          <option name="PATTERN" value="day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day11" />
-      <option name="MAIN_CLASS_NAME" value="day11.GettingDataFromOtherRequests_1" />
-      <option name="METHOD_NAME" value="gettingRandomID_and_NameForEachTest" />
+      <option name="PACKAGE_NAME" value="day12" />
+      <option name="MAIN_CLASS_NAME" value="day12.HamchrestMatcherEveryItem_5" />
+      <option name="METHOD_NAME" value="testList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GettingDataFromOtherRequests_1.testDynamicID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OpenMovieDB_XML_3.testMovieXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.*" />
+          <option name="PATTERN" value="day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day11" />
-      <option name="MAIN_CLASS_NAME" value="day11.GettingDataFromOtherRequests_1" />
-      <option name="METHOD_NAME" value="testDynamicID" />
+      <option name="PACKAGE_NAME" value="day12" />
+      <option name="MAIN_CLASS_NAME" value="day12.OpenMovieDB_XML_3" />
+      <option name="METHOD_NAME" value="testMovieXML" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GettingDataFromOtherRequests_1.testTheDynamicID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpartanXML_Test_4.testSpartanExtractData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.*" />
+          <option name="PATTERN" value="day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day11" />
-      <option name="MAIN_CLASS_NAME" value="day11.GettingDataFromOtherRequests_1" />
-      <option name="METHOD_NAME" value="testTheDynamicID" />
+      <option name="PACKAGE_NAME" value="day12" />
+      <option name="MAIN_CLASS_NAME" value="day12.SpartanXML_Test_4" />
+      <option name="METHOD_NAME" value="testSpartanExtractData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GettingRandomNumber_2.testRandom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpartanXML_Test_4.testSpartanXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.*" />
+          <option name="PATTERN" value="day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day11" />
-      <option name="MAIN_CLASS_NAME" value="day11.GettingRandomNumber_2" />
-      <option name="METHOD_NAME" value="testRandom" />
+      <option name="PACKAGE_NAME" value="day12" />
+      <option name="MAIN_CLASS_NAME" value="day12.SpartanXML_Test_4" />
+      <option name="METHOD_NAME" value="testSpartanXML" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonSchemaValidation_3.testSchema" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="XMLResponseTest_2.testXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.*" />
+          <option name="PATTERN" value="day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day11" />
-      <option name="MAIN_CLASS_NAME" value="day11.JsonSchemaValidation_3" />
-      <option name="METHOD_NAME" value="testSchema" />
+      <option name="PACKAGE_NAME" value="day12" />
+      <option name="MAIN_CLASS_NAME" value="day12.XMLResponseTest_2" />
+      <option name="METHOD_NAME" value="testXML" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GettingDataFromOtherRequests_1.gettingRandomID_and_NameForEachTest" />
-        <item itemvalue="JUnit.GettingDataFromOtherRequests_1.testDynamicID" />
-        <item itemvalue="JUnit.JsonSchemaValidation_3.testSchema" />
-        <item itemvalue="JUnit.GettingRandomNumber_2.testRandom" />
-        <item itemvalue="JUnit.GettingDataFromOtherRequests_1.testTheDynamicID" />
+        <item itemvalue="JUnit.HamchrestMatcherEveryItem_5.testList" />
+        <item itemvalue="JUnit.SpartanXML_Test_4.testSpartanExtractData" />
+        <item itemvalue="JUnit.SpartanXML_Test_4.testSpartanXML" />
+        <item itemvalue="JUnit.OpenMovieDB_XML_3.testMovieXML" />
+        <item itemvalue="JUnit.XMLResponseTest_2.testXML" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599252902571</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="End of day11">
+      <created>1599281914497</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599281914497</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -272,48 +286,52 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="315" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838003795" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1599252902001">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1599281913843">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="189" y="0" key="CommitChangelistDialog2/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1599147875579" />
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599252902001" />
-    <state width="1228" height="503" key="GridCell.Tab.0.bottom" timestamp="1599271775904">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599281913843" />
+    <state width="1228" height="270" key="GridCell.Tab.0.bottom" timestamp="1599612243235">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1228" height="216" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1599271177045" />
-    <state width="1228" height="503" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599271775904" />
+    <state width="1228" height="270" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599599390625" />
     <state width="1920" height="234" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538540" />
+    <state width="1228" height="270" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1599612243235" />
     <state width="1280" height="309" key="GridCell.Tab.0.bottom/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339327" />
-    <state width="1228" height="503" key="GridCell.Tab.0.center" timestamp="1599271775901">
+    <state width="1228" height="270" key="GridCell.Tab.0.center" timestamp="1599612243232">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1228" height="216" key="GridCell.Tab.0.center/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1599271177040" />
-    <state width="1228" height="503" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599271775901" />
+    <state width="1228" height="270" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599599390622" />
     <state width="1920" height="234" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538537" />
+    <state width="1228" height="270" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1599612243232" />
     <state width="1280" height="309" key="GridCell.Tab.0.center/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339325" />
-    <state width="1228" height="503" key="GridCell.Tab.0.left" timestamp="1599271775898">
+    <state width="1228" height="270" key="GridCell.Tab.0.left" timestamp="1599612243230">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1228" height="216" key="GridCell.Tab.0.left/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1599271177038" />
-    <state width="1228" height="503" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599271775898" />
+    <state width="1228" height="270" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599599390620" />
     <state width="1920" height="234" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538535" />
+    <state width="1228" height="270" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1599612243230" />
     <state width="1280" height="309" key="GridCell.Tab.0.left/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339324" />
-    <state width="1228" height="503" key="GridCell.Tab.0.right" timestamp="1599271775903">
+    <state width="1228" height="270" key="GridCell.Tab.0.right" timestamp="1599612243234">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1228" height="216" key="GridCell.Tab.0.right/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1599271177043" />
-    <state width="1228" height="503" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599271775903" />
+    <state width="1228" height="270" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599599390624" />
     <state width="1920" height="234" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@81.-1080.1920.1080" timestamp="1598649538538" />
+    <state width="1228" height="270" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1599612243234" />
     <state width="1280" height="309" key="GridCell.Tab.0.right/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1598838339326" />
     <state x="33" y="0" key="SettingsEditor" timestamp="1599151539096">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="33" y="0" key="SettingsEditor/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599151539096" />
-    <state x="140" y="79" key="Vcs.Push.Dialog.v2" timestamp="1599252905541">
+    <state x="140" y="79" key="Vcs.Push.Dialog.v2" timestamp="1599281918155">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="140" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1599147878288" />
-    <state x="140" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599252905541" />
+    <state x="140" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1599281918155" />
     <state x="221" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1599268522141">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
